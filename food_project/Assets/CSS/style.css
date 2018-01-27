@@ -1,0 +1,126 @@
+body,h1,h2,h3,h4,h5,h6,p,a,button{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	font-family: 'Montserrat';
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar:scrolled{
+	background-color: #112735db;
+
+}
+.navbar{
+	font-style: 'Montserrat';
+	color: yellow;
+	border-radius: 0px;
+	background-color:#2196f3;
+
+}
+nav.navbar.navbar-inverse{
+	border-radius: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	background-color: #112735;
+
+}
+a.navbar-brand.text-navbar{
+	font-family: pacifico;
+	color: yellow;
+	font-size: 30px;
+}
+.text-navbar{
+	color: white;
+}
+#carousel_id{
+	padding-bottom: 0px;
+	opacity: 0.7;
+}
+
+.box{
+	height: 300px;
+	width: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 1s;
+}
+
+.box_image{
+	padding-left: 10px;
+}
+
+.box_hover:hover{
+	transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 666;
+}
+
+.section_div{
+	padding-top: 50px;
+	background-color: white;
+	color: #112735;
+
+}
+
+
+
+.div_box{
+	padding: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 4px;
+    border-spacing: 5px;
+}
+
+.mybutton{
+	font-family: 'Montserrat';
+	background-color: #112735;
+	border-radius: 4px;
+	color: yellow;
+	padding:7px;
+}
+.mybutton:hover{
+	color: yellow;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#our_mealh1{
+	font-size: 50px;
+	font-family: 'Montserrat';
+	padding-bottom: 50px;
+
+}
+.section_div2{
+	width: 100%;
+	padding-top: 100px;
+	height: auto;
+	padding-bottom: 10%;
+	padding-left: 20%;
+	padding-right: 20%;
+	background-color: #ffff00cf;
+	color: #112735;
+}
+.section_div3{
+	height: auto;
+	padding-bottom:10%;
+	width: 100%;
+	box-shadow: 12px 0px 8px 0 rgba(0, 0, 0, 0.2), 6px 0px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#recipe_h1{
+	font-size: 50px;
+	padding-top: 60px;
+	font-family: 'Montserrat';
+}
+.video_class{
+	
+	margin-top: 40px;
+	opacity: 0.7;
+}
+
+footer{
+	background-color: #112735
+}
